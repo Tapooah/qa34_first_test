@@ -1,11 +1,15 @@
-import org.junit.jupiter.api.Test;
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class Start {
     WebDriver wd;
 
-    @Test
+   @Test
     public void start() {
         wd = new ChromeDriver();
-        wd.get("https://contacts-app.tobbymarsajj815.vercel.app/login");
+        wd.get("https://contacts-app.tobbymarshall815.vercel.app/home");
     }
 }
