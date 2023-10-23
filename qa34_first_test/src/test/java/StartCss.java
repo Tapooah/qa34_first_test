@@ -13,7 +13,7 @@ public class StartCss {
     @Test
     public void startCssLocators() {
         wd = new ChromeDriver();
-        wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/home");
+        wd.navigate().to("https://telranedu.web.app/");
 
         WebElement elem1 = wd.findElement(By.id("root"));
         WebElement elem2 = wd.findElement(By.tagName("a"));
